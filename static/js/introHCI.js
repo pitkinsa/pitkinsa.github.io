@@ -9,18 +9,18 @@ $(document).ready(function() {
  * Function that is called when the document is ready.
  */
 function initializePage() {
-	$("#testjs").click(function(e) {
-		$('.jumbotron h1').text("Javascript is connected");
-		$('#testjs').text("clicked!");
-		$(".jumbotron p").toggleClass("active");
+	//$("#testjs").click(function(e) {
+		//$('.jumbotron h1').text("Javascript is connected");
+		//$('#testjs').text("clicked!");
+		//$(".jumbotron p").toggleClass("active");
 	});
 	// Add any additional listeners here
 	// example: $("#div-id").click(functionToCall);
-	$("a.thumbnail").click(projectClick);
-	$("#submitBtn").click(updateProject); 
+	//$("a.thumbnail").click(projectClick);
+	//$("#submitBtn").click(updateProject); 
 }
 
-function updateProject(e) {
+/**function updateProject(e) {
    var projectID = $('#project').val();
    $(projectID).animate({
       width: $('#width').val()
@@ -48,3 +48,5 @@ function projectClick(e) {
        //description.html("<p>Stop clicking on me! You just did it at " + (new Date()) + "</p>");
     }
 }
+*/
+
